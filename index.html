@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK Bunda Kandung</title>
+  </head>
+  <body>
+    <h1 id="greeting">Halo Javascript</h1>
+    <button onclick="changeGreeting()">Klik</button>
+    <script>
+      console.log("Halo World");
+      console.log("Halo JavaScript");
+      console.log(6);
+      console.log(3.14);
+      console.log(10 + 5); // Penjumlahan: 15
+      console.log(10 - 5); // Pengurangan: 5
+      console.log(10 * 5); // Perkalian: 50
+      console.log(10 / 5); // Pembagian: 2
+      console.log(10 % 3); // Modulus (sisa): 1
+      console.log("2" + "2");
+
+      const pi = 3.14;
+      console.log(pi);
+      pi = 12;
+
+      let firstName = "Amar";
+      let lastName = "Satriawan";
+
+      // Menggunakan + operator
+      const fullName = firstName + " " + lastName;
+      console.log("Halo " + fullName);
+
+      function changeGreeting() {
+        document.getElementById("greeting").innerHTML = "Ayo Mulai belajar JavaScript!";
+      }
+    </script>
+  </body>
+</html>
